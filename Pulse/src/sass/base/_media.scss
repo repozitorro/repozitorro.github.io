@@ -4,6 +4,22 @@
     }
 }
 
+@media (max-width: 920px) {
+    .carousel {
+        &__inner {
+            img {
+                width: 100%;
+            }
+        }
+
+        .slick-dots {
+            li {
+                display: none;
+            }
+        }
+    }
+}
+
 @media (max-width: 836px) {
     .advantages {
         &__wrapper {
