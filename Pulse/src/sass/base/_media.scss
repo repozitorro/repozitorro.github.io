@@ -85,6 +85,25 @@
     .catalog {
         padding-bottom: 30px;
     }
+
+    .reviews {
+        &__block {
+            flex-direction: column;
+        }
+
+        &__images {
+            margin-right: 0px;
+            margin-bottom: 30px;
+        }
+
+        &__title {
+            text-align: center;
+        }
+
+        &__subtitle {
+            text-align: center;
+        }
+    }
 }
 
 @media (max-width: 463px) {
@@ -173,6 +192,12 @@
 
         &__content {
             margin-top: 20px;
+        }
+    }
+
+    .reviews {
+        &__descr {
+            font-size: 14px;
         }
     }
 

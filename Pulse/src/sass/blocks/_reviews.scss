@@ -1,0 +1,35 @@
+.reviews {
+    &__block {
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    &__images {
+        margin-right: 62px;
+    }
+
+    &__title {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &__subtitle {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    &__descr {
+        margin-top: 15px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    hr {
+        border-bottom: none;
+        background-color: #f6f6f6;
+    }
+}
