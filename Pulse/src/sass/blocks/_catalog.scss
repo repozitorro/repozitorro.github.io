@@ -6,6 +6,7 @@
         list-style: none;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
         margin-bottom: 0;
         padding-left: 0;
@@ -21,7 +22,7 @@
         text-align: center;
         line-height: 48px;
         transform: skewX(-25deg);
-        margin: 0 5px;
+        margin: 0 5px 10px 5px;
         cursor: pointer;
         transition: 0.5s all;
 
@@ -44,7 +45,7 @@
     &__content {
         margin-top: 60px;
         display: none;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
 
         &_active {
@@ -53,7 +54,7 @@
     }
 
     &-item {
-        margin-bottom: 20px;
+        margin: 0 5px 20px 5px;
         padding: 20px 20px 26px 20px;
         width: 300px;
         min-height: 440px;
@@ -88,13 +89,13 @@
             margin-top: 17px;
             color: $main-color;
             font-weight: 500;
-            text-decoration: underline;
             text-align: center;
             display: block;
             text-transform: uppercase;
 
             &:hover {
                 color: $main-color;
+                text-decoration: none;
             }
         }
 
@@ -184,11 +185,11 @@
             color: $main-color;
             font-size: 14px;
             font-weight: 500;
-            text-decoration: underline;
             text-transform: uppercase;
 
             &:hover {
                 color: $main-color;
+                text-decoration: none;
             }
         }
     }
