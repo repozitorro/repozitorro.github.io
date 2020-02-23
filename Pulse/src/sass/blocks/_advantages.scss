@@ -19,6 +19,13 @@
             display: block;
             margin: 0 auto;
         }
+
+        &_animated {
+            animation-name: hartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
     }
 
     &__subtitle {
