@@ -18,6 +18,12 @@
             }
         }
     }
+
+    .pageup {
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 @media (max-width: 836px) {
@@ -115,6 +121,10 @@
                 border: 2px solid #fff;
             }
         }
+    }
+
+    .pageup {
+        bottom: 40px;
     }
 }
 
