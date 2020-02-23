@@ -104,6 +104,18 @@
             text-align: center;
         }
     }
+
+    .footer {
+        &__info {
+            width: 100%;
+        }
+
+        &__social-item {
+            &:hover {
+                border: 2px solid #fff;
+            }
+        }
+    }
 }
 
 @media (max-width: 463px) {
@@ -198,6 +210,32 @@
     .reviews {
         &__descr {
             font-size: 14px;
+        }
+    }
+
+    .footer {
+        &__info {
+            height: 150px;
+            padding: 10px 0 0 0;
+        }
+
+        &__addr {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        &__phone {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        &__social-item {
+            width: 40px;
+            height: 40px;
+
+            img {
+                height: 20px;
+            }
         }
     }
 
