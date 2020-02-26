@@ -1,0 +1,29 @@
+.menu {
+    padding: 0;
+    display: flex;
+
+    &__list {
+        list-style: none;
+        padding: 0 10px 0 10px;
+        border-right: 1px dotted #888a92;
+
+        &:nth-child(6) {
+            border-right: none;
+        }
+
+        a {
+            padding-bottom: 4px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 16.71px;
+
+            &:hover {
+                border-bottom: 1px solid $main-color;
+                color: $main-color;
+            }
+        }
+
+    }
+}

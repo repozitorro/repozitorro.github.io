@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__info {
+        display: flex;
+    }
+
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__text {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+    &__phone {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px;
+        text-decoration: none;
+    }
+}

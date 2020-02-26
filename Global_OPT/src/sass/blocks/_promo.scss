@@ -1,0 +1,91 @@
+.promo {
+    padding: 20px 0 20px 0;
+    min-height: 680px;
+    background: url(../img/promo-bg.jpg) center (center/cover) no-repeat;
+
+    &__descr {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    &__title {
+        margin: 20px 0 0px 0;
+        font-family: "Roboto Condensed";
+        color: #ec644b;
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__subtitle {
+        color: #ffffff;
+        font-family: "Roboto Condensed";
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__line {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_mini {
+            height: 2px;
+            width: 390px;
+            background-color: #a9abae;
+        }
+
+        &_circle {
+            margin: 0 10px 0 10px;
+            height: 10px;
+            width: 10px;
+            border-radius: 100%;
+            background-color: #fff;
+        }
+    }
+
+    &__blocks {
+        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__block {
+        margin: 0 10px 0 10px;
+        max-width: 260px;
+
+        &-img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        &:nth-child(1) {
+            padding-top: 15px;
+        }
+
+        &:nth-child(3) {
+            padding-top: 7px;
+        }
+        &:nth-child(4) {
+            padding-top: 10px;
+        }
+
+        &-text {
+            margin-top: 20px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+        }
+    }
+
+
+}

@@ -1,0 +1,27 @@
+.button {
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background-color: $main-color;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22.04px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &_ml20 {
+        margin-left: 20px;
+    }
+
+    &_promo {
+        display: block;
+        margin: 0 auto;
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.35px;
+    }
+}
