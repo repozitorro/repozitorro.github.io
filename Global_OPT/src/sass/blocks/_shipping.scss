@@ -1,0 +1,34 @@
+.shipping {
+    min-height: 550px;
+    padding: 50px 0;
+
+    &__items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        margin: 35px 10px 0 10px;
+        width: 360px;
+
+        &-title {
+            margin-top: 25px;
+            color: $main-color;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        &-descr {
+            margin-top: 15px;
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+
+        }
+    }
+
+}

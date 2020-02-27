@@ -15,6 +15,11 @@
         margin-left: 20px;
     }
 
+    &_center {
+        margin: 0 auto;
+        display: block;
+    }
+
     &_promo {
         display: block;
         margin: 0 auto;
@@ -23,5 +28,9 @@
         font-size: 15px;
         font-weight: 700;
         line-height: 17.35px;
+    }
+
+    &_consultation {
+        width: 180px;
     }
 }

@@ -1,0 +1,10 @@
+.line {
+    width: 148px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: $main-color;
+
+    &_m20 {
+        margin: 20px auto;
+    }
+}
