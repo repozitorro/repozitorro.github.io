@@ -1,25 +1,75 @@
 .feed-form {
-    display: flex;
-    justify-content: center;
-
     input {
         height: 50px;
-        width: 270px;
-        border: 1px solid #c9c9c9;
+        width: 268px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
         border-radius: 25px;
         background-color: #fff;
         padding: 0 20px;
-        color: #a5a5a5;
-        font-size: 14px;
+        color: #101010;
+        font-size: 13px;
+        line-height: 24px;
         font-weight: 300;
-        margin-right: 5px;
+    }
 
-        &:nth-child(3) {
-            margin-right: 0;
+    textarea {
+        width: 100%;
+        resize: none;
+        height: 71px;
+        border-radius: 25px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        background-color: #ffffff;
+        padding: 10px 20px;
+        color: #101010;
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+
+    &_p40 {
+        padding: 0 40px;
+    }
+
+    &_center {
+        display: flex;
+        justify-content: center;
+    }
+
+    &_mr_5 {
+        input {
+            margin-right: 5px;
+
+            &:nth-child(3) {
+                margin-right: 0;
+            }
         }
+    }
+
+    &_mt10 {
+        margin-top: 10px;
     }
 
     &_mt65 {
         margin-top: 65px;
     }
+
+    &_pb15 {
+        padding-bottom: 15px;
+    }
+
+    &_column {
+        flex-direction: column;
+    }
+
+    &__input {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__text {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
 }

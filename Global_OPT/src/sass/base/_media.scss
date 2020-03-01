@@ -56,7 +56,19 @@
         input {
             margin-top: 10px;
         }
+
+        &__input {
+            flex-direction: column;
+        }
+
+        &__text {
+            textarea {
+                width: 268px;
+            }
+        }
+
     }
+
 }
 
 @media (max-width: 540px) {
@@ -150,5 +162,14 @@
             width: 230px;
         }
 
+        &__text {
+            textarea {
+                width: 230px;
+            }
+        }
+
+        &_p40 {
+            padding: 0;
+        }
     }
 }
