@@ -5,7 +5,14 @@
     line-height: 23px;
     text-transform: uppercase;
     text-align: center;
-    
+
+    &_white {
+        color: #fff;
+    }
+
+    &_mt25 {
+        margin-top: 25px;
+    }
 }
 
 .subtitle {

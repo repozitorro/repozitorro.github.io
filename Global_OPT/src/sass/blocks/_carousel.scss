@@ -1,0 +1,69 @@
+.carousel {
+    min-height: 470px;
+    padding: 45px 0 55px 0;
+
+    &__inner {
+        margin-top: 25px;
+    }
+
+    &__item {
+        max-width: 600px;
+        margin: 0 auto;
+
+        &-wrapper_img {
+            margin: 0 auto;
+            width: 114px;
+            height: 114px;
+
+        }
+
+        &-img {
+            border-radius: 50%;
+            height: 114px;
+            width: 114px;
+        }
+
+        &-title {
+            margin-top: 15px;
+            color: #3a3a3a;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        &-descr {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+        }
+    }
+
+    .slick-prev {
+        position: absolute;
+        top: 16%;
+        //transform: translateY(-50%);
+        left: 38%;
+        border: none;
+        background-color: #fff;
+
+        img {
+            width: 14px;
+            height: 47px;
+        }
+    }
+
+    .slick-next {
+        position: absolute;
+        top: 16%;
+        //transform: translateY(-50%);
+        right: 38%;
+        border: none;
+        background-color: #fff;
+
+        img {
+            width: 14px;
+            height: 47px;
+        }
+    }
+}
